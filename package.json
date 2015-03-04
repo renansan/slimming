@@ -1,0 +1,15 @@
+{
+  "name": "agile-imageoptimizer",
+  "title": "Agile - Image Optimizer",
+  "description": "An agile image optimizer.",
+  "version": "0.1.0",
+  "author": "Renan San <http://github.com/renansan>",
+  "copyright": "2015",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-imagemin": "~0.9.2",
+    "grunt-newer": "~0.8.0"
+  }
+}
