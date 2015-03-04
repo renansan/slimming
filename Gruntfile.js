@@ -11,15 +11,7 @@ module.exports = function(grunt) {
   // Grunt config
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-
-    /**
-     * Project info
-     */
-    project: {
-      src: 'src', // <%= project.src %>
-      dist: 'dist' // <%= project.dist %>
-    },
-
+    
     /**
      * Image compress
      * https://github.com/gruntjs/grunt-contrib-imagemin
@@ -33,20 +25,20 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: '<%= project.src %>',
+          cwd: 'src/',
           src: ['{,**/}*.{png,jpg,gif}'],
-          dest: '<%= project.dist %>'
+          dest: 'dist/'
         }]
       }
-    },
+    }
+  });
 
   /**
    * Images task
    * Run 'grunt' on the command line
-   * Compress images (just when files has changes)
+   * Compress images
    */
-  grunt.loadNpmTasks('newer');
-  grunt.loadNpmTasks('imagemin');
-  grunt.registerTask('default', ['newer:imagemin']);
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.registerTask('default', ['imagemin']);
 
 };
