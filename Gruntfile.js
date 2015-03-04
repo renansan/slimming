@@ -1,6 +1,6 @@
 /*!
- * Agile - Image Optimizer
- * http://github.com/renansan/agile-image-optmizr/
+ * Slimming - Image Optimizer
+ * http://github.com/renansan/slimming/
  * @author Renan San
  */
 
@@ -10,7 +10,6 @@ module.exports = function(grunt) {
 
   // Grunt config
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
     
     /**
      * Image compress

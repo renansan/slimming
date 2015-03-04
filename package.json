@@ -1,7 +1,7 @@
 {
-  "name": "agile-imageoptimizer",
-  "title": "Agile - Image Optimizer",
-  "description": "An agile image optimizer.",
+  "name": "slimming",
+  "title": "Slimming Image Optimizer",
+  "description": "An agile command line image optimizer tool.",
   "version": "0.1.0",
   "author": "Renan San <http://github.com/renansan>",
   "copyright": "2015",

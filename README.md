@@ -1,4 +1,4 @@
-# Agile Image Optimizer
+# Slimming
 
 > An agile command line image optimizer tool.
 
@@ -18,7 +18,7 @@ Node can be downloaded on [its official website](//nodejs.org/download) (npm com
 
 ### Grunt
 
-Grunt is a JavaScript task runner for automation of repetitive tasks like minification, compilation, testing, linting, etc. In Agile Image Optimizer it's used to run the `[imagemin](//github.com/gruntjs/grunt-contrib-imagemin 'grunt-contrib-imagemin: "Minify images."')` task, the module used to compress the images.
+Grunt is a JavaScript task runner for automation of repetitive tasks like minification, compilation, testing, linting, etc. In Slimming it's used to run the `[imagemin](//github.com/gruntjs/grunt-contrib-imagemin 'grunt-contrib-imagemin: "Minify images."')` task, the module used to compress the images.
 
 You need to install Nodejs and run `npm install -g grunt-cli` (you may need to use sudo or run it as administrator) to install globlally both Grunt command line tools and Bower.
 
@@ -26,7 +26,7 @@ You need to install Nodejs and run `npm install -g grunt-cli` (you may need to u
 
 The `grunt-contrib-imagemin` module works with major formats: JPG, PNG, GIF and SVG. It provides some options for the compression, see [the module documentation](//github.com/gruntjs/grunt-contrib-imagemin) for more details.
 
-Once you have installed both Node.js (and npm) and Grunt, you need to run `npm install` on the Agile Image Optimizer directory to install the `grunt-contrib-imagemin` module.
+Once you have installed both Node.js (and npm) and Grunt, you need to run `npm install` on the Slimming directory to install the `grunt-contrib-imagemin` module.
 
 ## How it Works
 
@@ -36,7 +36,7 @@ The `src` images are automatically *deleted* after the process, so *always keep 
 
 ## License
 
-Agile Image Optimizer is free to use under [MIT License](LICENSE.md).
+Slimming is free to use under [MIT License](LICENSE.md).
 
 ## Changelog
 
