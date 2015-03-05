@@ -2,7 +2,12 @@
 
 > An agile command line image optimizer tool.
 
+How It Works
+
+
 ## Getting Started
+
+Just clone the git repo — `git clone https://github.com/renansan/slimming.git` and compress your images! :D
 
 This tool requires some stuffs installed:
 
