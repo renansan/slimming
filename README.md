@@ -18,11 +18,11 @@ Node can be downloaded on [its official website](//nodejs.org/download) (npm com
 
 ### Grunt
 
-Grunt is a JavaScript task runner for automation of repetitive tasks like minification, compilation, testing, linting, etc. In Slimming it's used to run the `[imagemin](//github.com/gruntjs/grunt-contrib-imagemin 'grunt-contrib-imagemin: "Minify images."')` task, the module used to compress the images.
+Grunt is a JavaScript task runner for automation of repetitive tasks like minification, compilation, testing, linting, etc. In Slimming it's used to run the [imagemin](//github.com/gruntjs/grunt-contrib-imagemin 'grunt-contrib-imagemin: "Minify images."') task, the module used to compress the images.
 
 You need to install Nodejs and run `npm install -g grunt-cli` (you may need to use sudo or run it as administrator) to install globlally both Grunt command line tools and Bower.
 
-#### [imagemin](//github.com/gruntjs/grunt-contrib-imagemin 'grunt-contrib-imagemin: "Minify images."')
+#### imagemin
 
 The `grunt-contrib-imagemin` module works with major formats: JPG, PNG, GIF and SVG. It provides some options for the compression, see [the module documentation](//github.com/gruntjs/grunt-contrib-imagemin) for more details.
 
@@ -32,7 +32,7 @@ Once you have installed both Node.js (and npm) and Grunt, you need to run `npm i
 
 The input images should be placed in `src` directory and, running `grunt` on command line, the optimized images should be generated in `dist` directory.
 
-The `src` images are automatically *deleted* after the process, so *always keep a copy of the original files*.
+The `src` images are automatically **deleted** after the process, so **always keep a copy of the original files**.
 
 ## License
 
@@ -40,4 +40,4 @@ Slimming is free to use under [MIT License](LICENSE.md).
 
 ## Changelog
 
-* 2015-03-04...v0.1.0...Initial release.
+* 2015-03-04 &nbsp;&nbsp;&nbsp; v0.1.0 &nbsp;&nbsp;&nbsp; Initial release.
