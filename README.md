@@ -2,12 +2,13 @@
 
 > An agile command line image optimizer tool.
 
-How It Works
+## How It Works
 
+Slimming uses the `imagemin` npm module with Grunt to automatically compress multiple images locally.
 
 ## Getting Started
 
-Just clone the git repo — `git clone https://github.com/renansan/slimming.git` and compress your images! :D
+Just clone the git repo — `git clone https://github.com/renansan/slimming.git` and compress your images! :smile:
 
 This tool requires some stuffs installed:
 
@@ -33,11 +34,11 @@ The `grunt-contrib-imagemin` module works with major formats: JPG, PNG, GIF and 
 
 Once you have installed both Node.js (and npm) and Grunt, you need to run `npm install` on the Slimming directory to install the `grunt-contrib-imagemin` module.
 
-## How it Works
+## Usage
 
-The input images should be placed in `src` directory and, running `grunt` on command line, the optimized images should be generated in `dist` directory.
+The input images should be placed in `src` directory and, after running `grunt` on command line, the optimized images should be generated in `dist` directory, as simple as that.
 
-The `src` images are automatically **deleted** after the process, so **always keep a copy of the original files**.
+> The `src` images are automatically **deleted** after the process, so **always keep a copy of the original files**.
 
 ## License
 
